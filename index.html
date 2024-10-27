@@ -10,6 +10,34 @@
         margin: 50px auto;
         position: relative;
     }
+    .slide-img{
+            height: 400px;
+            width: 600px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .slide-action-icon{
+            height: 50px;
+            position: absolute;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        .icon-next{
+            right: 10px;
+            top: 50%;
+        }
+
+        .icon-next:hover{
+            transform: scale(0.8) translateX(10px) ;
+        }
+        .icon-previous{
+            left: 10px;
+            top: 50%;
+        }
+        .icon-previous:hover{
+            transform: scale(0.8) translateX(-10px);
+        }
+
     </style>
     
 </head>
