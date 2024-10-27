@@ -65,7 +65,16 @@
         slideImg.src = images[index]
 
         }
-
+        
+        function previous(){
+            if(index > 0){
+                index--;
+            }
+            else{
+                index = images.length-1;
+            }
+            slideImg.src = images[index]
+        }
 
 </script>
 </body>
